@@ -1,13 +1,14 @@
 "use client";
 
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center px-4 py-20 font-sans text-zinc-800 bg-white">
-      <div className="max-w-xl w-full">
-        <h1 className="text-4xl font-bold mb-4">hi, i'm tej.</h1>
+    <main className="min-h-screen flex flex-col items-center justify-center px-4 py-20 font-sans text-zinc-800 bg-white text-[17px]">
+      <div className="max-w-xl w-full text-center">
+        <h1 className="text-5xl font-bold mb-4">hi, i’m tej.</h1>
 
         <p className="mb-3">
           i build tools for chemical companies and debug my mind while i do it.
@@ -20,7 +21,7 @@ export default function HomePage() {
           want to collaborate, talk process design, or swap healing stories?
         </p>
 
-        <div className="flex gap-4 mb-8">
+        <div className="flex gap-4 justify-center mb-8">
           <Button asChild>
             <a
               href="https://tejsukhatme.substack.com/?r=1rcrg9&utm_campaign=pub-share-checklist"
@@ -42,7 +43,7 @@ export default function HomePage() {
         </div>
 
         <Card>
-          <CardContent className="py-6 text-sm text-zinc-600">
+          <CardContent className="py-6 text-sm text-zinc-600 text-left">
             <p>
               currently:
               <br />– building a DSL-based tool to model chemical processes
@@ -54,24 +55,24 @@ export default function HomePage() {
           </CardContent>
         </Card>
 
-        <img
+        <Image
           src="/me.jpg"
           alt="Tej Sukhatme"
-          width={1000}
-          height={1000}
-          className="mt-6 mb-8 border border-teal-500"
+          width={160}
+          height={160}
+          className="mt-6 mb-8 rounded-full border border-teal-500"
         />
 
         <div className="mt-8 text-sm text-zinc-600">
           <p>
-            p.s: If you want to contact me, ping me on{" "}
+            p.s: if you want to contact me, ping me on{" "}
             <a
               className="text-teal-700 hover:underline"
               href="mailto:tejsukhatme@gmail.com"
             >
               tejsukhatme@gmail.com
             </a>
-            . I generally reply to every email with less than 300 characters and
+            . i generally reply to every email with less than 300 characters and
             a clear ask.
           </p>
         </div>
