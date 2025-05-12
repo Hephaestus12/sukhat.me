@@ -28,7 +28,7 @@ export default function HomePage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              see my newsletter
+              blog
             </a>
           </Button>
           <Button variant="outline" asChild>
@@ -37,7 +37,7 @@ export default function HomePage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              follow on twitter
+              twitter
             </a>
           </Button>
         </div>
