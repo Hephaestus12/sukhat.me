@@ -58,9 +58,9 @@ export default function HomePage() {
         <Image
           src="/me.jpg"
           alt="Tej Sukhatme"
-          width={160}
-          height={160}
-          className="mt-6 mb-8 rounded-full border border-teal-500"
+          width={1000}
+          height={1000}
+          className="mt-6 mb-8 border border-teal-500"
         />
 
         <div className="mt-8 text-sm text-zinc-600">
