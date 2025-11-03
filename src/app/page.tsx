@@ -103,11 +103,10 @@ export default function HomePage() {
           
           <div className="text-base sm:text-lg md:text-xl text-zinc-600 mb-8 space-y-3 md:space-y-4 max-w-3xl mx-auto px-4">
             <p>
-              i build tools for chemical companies and debug my mind while i do it.
+              what job do you land after falling in love with <a href="https://www.arduino.cc/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">arduinos</a> and robots, realizing only your code works but never the hardware, building a <a href="#hiccup-project" className="text-teal-700 hover:underline">dating app that matches people through their spotify playlists</a>, and somehow getting a computer science degree? apparently, fullstack software engineering.
             </p>
             <p>
-              based in berlin. currently fullstack @ <a href="https://weatherpromise.com" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">weatherpromise</a>. also
-              writing about solo building, emotional healing, and long-term freedom.
+              hi there i'm tej.
             </p>
           </div>
 
@@ -138,9 +137,10 @@ export default function HomePage() {
             <CardContent className="p-6 sm:py-8 text-left">
               <h3 className="font-semibold text-lg mb-4">currently:</h3>
               <div className="text-zinc-600 space-y-2 text-sm sm:text-base">
-                <p>– building a DSL-based tool to model chemical processes</p>
-                <p>– writing every week</p>
-                <p>– chasing abs and emotional regulation</p>
+                <p>– building tools for chemical factories as a side project</p>
+                <p>– working toward several goals: getting abs, being a better boyfriend, being a better son</p>
+                <p>– training for <a href="https://en.wikipedia.org/wiki/Mixed_martial_arts" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">mma</a> and planning to take part in a fight in 2026</p>
+                <p>– constantly feeling like i don't have free time</p>
               </div>
             </CardContent>
           </Card>
@@ -164,31 +164,41 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
             <div className="space-y-4 md:space-y-6 text-base md:text-lg text-zinc-700">
               <p>
-                i&apos;m tej sukhatme, a full-stack engineer who bridges the gap between chemical engineering and software development. my journey as tej started with a be in computer science from bits pilani, and has taken sukhatme from building dating apps in mumbai to working on cloud infrastructure at aws in berlin.
+                i was born in a small nursing home in <a href="https://en.wikipedia.org/wiki/Mumbai" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">mumbai</a>, spent my early years in <a href="https://en.wikipedia.org/wiki/Hyderabad" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">hyderabad</a> and <a href="https://en.wikipedia.org/wiki/Bangalore" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">bangalore</a>.
               </p>
               <p>
-                at weatherpromise, i&apos;m building tools that help agricultural companies make better decisions through weather data. previously, i&apos;ve worked on everything from amazon s3&apos;s intelligent tiering to ai platforms for deutsche bank, always focusing on systems that solve real-world problems.
+                took a year off to travel all across india before settling into the tech world.
               </p>
               <p>
-                what drives me is the intersection of technical excellence and human impact. whether it&apos;s creating domain-specific languages for chemical processes or contributing to open-source ml projects, i believe in building tools that make complex problems more approachable.
+                studied computer science at <a href="https://www.bits-pilani.ac.in/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">bits pilani</a> (though let's be honest, not much science involved).
+              </p>
+              <p>
+                currently, i'm a fullstack software engineer at <a href="https://weatherpromise.com" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">weatherpromise</a>.
+              </p>
+              <p>
+                during covid in 2020, i built <a href="#hiccup-project" className="text-teal-700 hover:underline">hiccup</a>—a dating app for indians that matched people based on their youtube and <a href="https://spotify.com" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">spotify</a> accounts. because apparently shared music taste is the foundation of love.
+              </p>
+              <p>
+                i'm working on a side project building tools for chemical factories. from dating apps to industrial chemistry—just your typical career progression.
+              </p>
+              <p>
+                if i ever figure out what free time is, i'll probably fill it with another potentially dangerous hobby or side project. until then, i'm just trying to balance code, chemical factories, and not dying while learning to fight.
               </p>
             </div>
             <div className="space-y-6">
               <div>
-                <h3 className="text-xl font-semibold mb-4">core skills</h3>
+                <h3 className="text-xl font-semibold mb-4">passionate about</h3>
                 <div className="space-y-2 text-zinc-600">
-                  <p>• chemical process engineering</p>
-                  <p>• full-stack development</p>
-                  <p>• technical writing</p>
-                  <p>• domain-specific languages</p>
-                  <p>• data analysis & visualization</p>
+                  <p>i'm passionate about trying new experiences: i can <a href="https://en.wikipedia.org/wiki/Surfing" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">surf</a>, <a href="https://en.wikipedia.org/wiki/Skiing" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">ski</a>, <a href="https://en.wikipedia.org/wiki/Rock_climbing" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">climb</a>, and i'm <a href="https://en.wikipedia.org/wiki/Scuba_diving" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">open water scuba certified</a>.</p>
+                  <p>food is one of my biggest passions. i take eating very seriously.</p>
+                  <p>i'm passionate about helping recovering <a href="https://www.amazon.com/No-More-Mr-Nice-Guy/dp/0762415339" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">"nice guys"</a> feel better and be better. speaking from experience here.</p>
                 </div>
               </div>
               <div>
-                <h3 className="text-xl font-semibold mb-4">currently learning</h3>
+                <h3 className="text-xl font-semibold mb-4">dream goals</h3>
                 <div className="space-y-2 text-zinc-600">
-                  <p>• emotional intelligence</p>
-                  <p>• advanced process modeling</p>
+                  <p>i want to own and fly my own plane, and sail my own boat. (climate change, i'm sorry in advance.)</p>
+                  <p>fun personality quirk: most people who like me in the first few meetings tend to change their minds later, while the people who love me now almost hated me initially. i'm an acquired taste, apparently.</p>
                 </div>
               </div>
             </div>
@@ -224,14 +234,16 @@ export default function HomePage() {
               logoCompany="google"
             />
 
-            <ProjectCard
-              title="hiccup* dating app"
-              description="crowdfunded dating app for indians, connecting people based on shared youtube and spotify interests with real-time chat and matching algorithms."
-              technologies={[
-                { name: "flutter", variant: "blue" },
-                { name: "firebase", variant: "orange" }
-              ]}
-            />
+            <div id="hiccup-project">
+              <ProjectCard
+                title="hiccup* dating app"
+                description="crowdfunded dating app for indians, connecting people based on shared youtube and spotify interests with real-time chat and matching algorithms."
+                technologies={[
+                  { name: "flutter", variant: "blue" },
+                  { name: "firebase", variant: "orange" }
+                ]}
+              />
+            </div>
           </div>
         </div>
       </section>
