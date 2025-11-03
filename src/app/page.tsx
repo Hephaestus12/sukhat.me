@@ -47,8 +47,11 @@ export default function HomePage() {
     "nationality": "indian",
     "knowsAbout": [
       "software engineering",
-      "chemical engineering",
-      "full stack development",
+      "fullstack development",
+      "dating app development",
+      "chemical factory tools",
+      "arduino programming",
+      "mma training",
       "kotlin",
       "spring boot",
       "react.js",
@@ -58,6 +61,13 @@ export default function HomePage() {
       "firebase",
       "aws",
       "machine learning",
+      "spotify api",
+      "youtube api",
+      "scuba diving",
+      "surfing",
+      "skiing",
+      "rock climbing",
+      "nice guys recovery",
       "domain specific languages",
       "chemical process engineering",
       "weather data",
@@ -75,7 +85,7 @@ export default function HomePage() {
         "occupationalCategory": "engineering"
       }
     ],
-    "description": "tej sukhatme is a full-stack engineer bridging chemical engineering and software development. tej currently builds weather data tools at weatherpromise in berlin, previously worked at aws, kodex ai, and rippling. sukhatme specializes in kotlin, react, python and chemical process tools."
+    "description": "tej sukhatme is a fullstack software engineer who went from building hiccup dating app to chemical factory tools. arduino enthusiast turned mma fighter in berlin. currently at weatherpromise, previously aws, kodex ai, rippling. passionate about helping recovering nice guys and extreme sports."
   };
 
   return (
@@ -86,11 +96,15 @@ export default function HomePage() {
       />
       {/* Hidden SEO content for name variations */}
       <div className="sr-only">
-        tej sukhatme, tej, sukhatme, full stack engineer tej, software engineer sukhatme, 
+        tej sukhatme, tej, sukhatme, fullstack engineer tej, software engineer sukhatme, 
         tej berlin, sukhatme weatherpromise, tej aws, sukhatme kodex ai, tej rippling, 
         sukhatme bits pilani, tej chemical engineer, sukhatme kotlin react python, 
         tej domain specific languages, sukhatme machine learning, tej weather data, 
-        sukhatme agricultural technology, tej berlin germany, sukhatme hyderabad india
+        sukhatme agricultural technology, tej berlin germany, sukhatme hyderabad india,
+        tej hiccup dating app, sukhatme spotify matching, tej youtube matching, sukhatme arduino,
+        tej mma fighter, sukhatme scuba diving, tej surfing skiing, sukhatme rock climbing,
+        tej nice guys recovery, sukhatme no more mr nice guy, tej mumbai bangalore, sukhatme covid projects,
+        tej chemical factory tools, sukhatme side projects, tej firebase flutter, sukhatme dating app developer
       </div>
       <Navigation />
       
@@ -106,7 +120,7 @@ export default function HomePage() {
               what job do you land after falling in love with <a href="https://www.arduino.cc/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">arduinos</a> and robots, realizing only your code works but never the hardware, building a <a href="#hiccup-project" className="text-teal-700 hover:underline">dating app that matches people through their spotify playlists</a>, and somehow getting a computer science degree? apparently, fullstack software engineering.
             </p>
             <p>
-              hi there i'm tej.
+              hi there i&apos;m tej.
             </p>
           </div>
 
@@ -140,7 +154,7 @@ export default function HomePage() {
                 <p>– building tools for chemical factories as a side project</p>
                 <p>– working toward several goals: getting abs, being a better boyfriend, being a better son</p>
                 <p>– training for <a href="https://en.wikipedia.org/wiki/Mixed_martial_arts" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">mma</a> and planning to take part in a fight in 2026</p>
-                <p>– constantly feeling like i don't have free time</p>
+                <p>– constantly feeling like i don&apos;t have free time</p>
               </div>
             </CardContent>
           </Card>
@@ -170,35 +184,35 @@ export default function HomePage() {
                 took a year off to travel all across india before settling into the tech world.
               </p>
               <p>
-                studied computer science at <a href="https://www.bits-pilani.ac.in/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">bits pilani</a> (though let's be honest, not much science involved).
+                studied computer science at <a href="https://www.bits-pilani.ac.in/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">bits pilani</a> (though let&apos;s be honest, not much science involved).
               </p>
               <p>
-                currently, i'm a fullstack software engineer at <a href="https://weatherpromise.com" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">weatherpromise</a>.
+                currently, i&apos;m a fullstack software engineer at <a href="https://weatherpromise.com" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">weatherpromise</a>.
               </p>
               <p>
                 during covid in 2020, i built <a href="#hiccup-project" className="text-teal-700 hover:underline">hiccup</a>—a dating app for indians that matched people based on their youtube and <a href="https://spotify.com" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">spotify</a> accounts. because apparently shared music taste is the foundation of love.
               </p>
               <p>
-                i'm working on a side project building tools for chemical factories. from dating apps to industrial chemistry—just your typical career progression.
+                i&apos;m working on a side project building tools for chemical factories. from dating apps to industrial chemistry—just your typical career progression.
               </p>
               <p>
-                if i ever figure out what free time is, i'll probably fill it with another potentially dangerous hobby or side project. until then, i'm just trying to balance code, chemical factories, and not dying while learning to fight.
+                if i ever figure out what free time is, i&apos;ll probably fill it with another potentially dangerous hobby or side project. until then, i&apos;m just trying to balance code, chemical factories, and not dying while learning to fight.
               </p>
             </div>
             <div className="space-y-6">
               <div>
                 <h3 className="text-xl font-semibold mb-4">passionate about</h3>
                 <div className="space-y-2 text-zinc-600">
-                  <p>i'm passionate about trying new experiences: i can <a href="https://en.wikipedia.org/wiki/Surfing" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">surf</a>, <a href="https://en.wikipedia.org/wiki/Skiing" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">ski</a>, <a href="https://en.wikipedia.org/wiki/Rock_climbing" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">climb</a>, and i'm <a href="https://en.wikipedia.org/wiki/Scuba_diving" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">open water scuba certified</a>.</p>
+                  <p>i&apos;m passionate about trying new experiences: i can <a href="https://en.wikipedia.org/wiki/Surfing" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">surf</a>, <a href="https://en.wikipedia.org/wiki/Skiing" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">ski</a>, <a href="https://en.wikipedia.org/wiki/Rock_climbing" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">climb</a>, and i&apos;m <a href="https://en.wikipedia.org/wiki/Scuba_diving" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">open water scuba certified</a>.</p>
                   <p>food is one of my biggest passions. i take eating very seriously.</p>
-                  <p>i'm passionate about helping recovering <a href="https://www.amazon.com/No-More-Mr-Nice-Guy/dp/0762415339" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">"nice guys"</a> feel better and be better. speaking from experience here.</p>
+                  <p>i&apos;m passionate about helping recovering <a href="https://www.amazon.com/No-More-Mr-Nice-Guy/dp/0762415339" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">&quot;nice guys&quot;</a> feel better and be better. speaking from experience here.</p>
                 </div>
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-4">dream goals</h3>
                 <div className="space-y-2 text-zinc-600">
-                  <p>i want to own and fly my own plane, and sail my own boat. (climate change, i'm sorry in advance.)</p>
-                  <p>fun personality quirk: most people who like me in the first few meetings tend to change their minds later, while the people who love me now almost hated me initially. i'm an acquired taste, apparently.</p>
+                  <p>i want to own and fly my own plane, and sail my own boat. (climate change, i&apos;m sorry in advance.)</p>
+                  <p>fun personality quirk: most people who like me in the first few meetings tend to change their minds later, while the people who love me now almost hated me initially. i&apos;m an acquired taste, apparently.</p>
                 </div>
               </div>
             </div>
@@ -372,7 +386,7 @@ export default function HomePage() {
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">writing</h2>
           <div className="text-center mb-8">
             <p className="text-lg text-zinc-600 mb-6">
-              i write about solo building, emotional healing, and long-term freedom on substack.
+              i write about solo building, emotional healing, long-term freedom, recovering from nice guy syndrome, and building dating apps to chemical factory tools on substack.
             </p>
             <Button asChild>
               <a
@@ -389,7 +403,7 @@ export default function HomePage() {
           
           <div className="text-center">
             <p className="text-zinc-600 mb-6">
-              latest posts are available directly on my substack. i write about the intersection of technology and personal growth, sharing insights from building products and debugging both code and life.
+              latest posts are available directly on my substack. i write about the intersection of technology and personal growth, sharing insights from building hiccup dating app, arduino projects, mma training, chemical factory tools, and debugging both code and life. topics include nice guy recovery, extreme sports, fullstack development, and the journey from mumbai to berlin.
             </p>
           </div>
         </div>
@@ -401,7 +415,7 @@ export default function HomePage() {
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-8">let&apos;s connect</h2>
           <p className="text-lg text-zinc-600 mb-8">
-            want to collaborate, talk process design, or swap healing stories?
+            want to collaborate on dating apps, chemical factory tools, discuss arduino projects, mma training, or swap nice guy recovery stories?
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">

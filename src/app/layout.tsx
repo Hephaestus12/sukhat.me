@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://sukhat.me'),
-  title: "tej sukhatme | tej | sukhatme - full stack engineer & chemical process expert",
-  description: "tej sukhatme is a full-stack engineer bridging chemical engineering and software development. tej works at weatherpromise in berlin, previously at aws, kodex ai, and rippling. sukhatme specializes in kotlin, react, python and chemical process tools.",
-  keywords: ["tej", "sukhatme", "tej sukhatme", "full stack engineer", "chemical engineer", "software developer", "berlin", "weatherpromise", "aws", "kodex ai", "rippling", "bits pilani", "kotlin", "react", "python", "spring boot", "firebase", "flutter", "chemical process engineering", "domain specific languages", "dsl", "machine learning", "weather data", "agricultural technology"],
+  title: "tej sukhatme - fullstack engineer | dating apps to chemical factories | berlin",
+  description: "fullstack software engineer who went from building dating apps to chemical factory tools. currently at weatherpromise in berlin. arduino enthusiast turned mma fighter. passionate about helping recovering nice guys.",
+  keywords: ["tej", "sukhatme", "tej sukhatme", "fullstack engineer", "software engineer", "dating app developer", "chemical factory tools", "hiccup dating app", "arduino", "mma fighter", "berlin developer", "weatherpromise", "aws engineer", "kodex ai", "rippling", "bits pilani", "kotlin", "react", "python", "spring boot", "firebase", "flutter", "spotify matching", "youtube matching", "scuba diving", "surfing", "skiing", "rock climbing", "nice guys recovery", "no more mr nice guy", "mumbai", "hyderabad", "bangalore", "covid projects", "side projects", "chemical process engineering", "domain specific languages", "dsl", "machine learning", "weather data", "agricultural technology"],
   authors: [{ name: "tej sukhatme" }],
   creator: "tej sukhatme",
   publisher: "tej sukhatme",
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://sukhat.me",
-    title: "tej sukhatme - full stack engineer & chemical process expert",
-    description: "tej sukhatme is a full-stack engineer bridging chemical engineering and software development. tej works at weatherpromise in berlin, previously at aws, kodex ai, and rippling.",
+    title: "tej sukhatme - fullstack engineer | dating apps to chemical factories",
+    description: "fullstack software engineer who went from building dating apps to chemical factory tools. arduino enthusiast turned mma fighter in berlin. passionate about helping recovering nice guys.",
     siteName: "tej sukhatme",
     images: [
       {
@@ -49,8 +49,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "tej sukhatme - full stack engineer & chemical process expert",
-    description: "tej sukhatme is a full-stack engineer bridging chemical engineering and software development. tej works at weatherpromise in berlin, previously at aws, kodex ai, and rippling.",
+    title: "tej sukhatme - fullstack engineer | dating apps to chemical factories",
+    description: "fullstack software engineer who went from building dating apps to chemical factory tools. arduino enthusiast turned mma fighter in berlin. passionate about helping recovering nice guys.",
     creator: "@TejSukhatme",
     images: ["/me.jpg"],
   },
