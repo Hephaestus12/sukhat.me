@@ -9,12 +9,13 @@ interface LogoIconProps {
 const logoUrls: Record<string, string> = {
   "weatherpromise": "https://weatherpromise.com/favicon.ico",
   "aws": "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
-  "kodex": "https://kodex.ai/favicon.ico",
+  "kodex": "/logos/Kodex AI Logo.jpeg",
   "rippling": "https://logo.clearbit.com/rippling.com",
   "microsoft": "https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg",
   "google": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
   "github": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg",
   "bits": "https://upload.wikimedia.org/wikipedia/en/d/d3/BITS_Pilani-Logo.svg",
+  "hiccup": "https://the-potato-people.github.io/favicon.ico",
 };
 
 export function LogoIcon({ company, size = 24, className = "" }: LogoIconProps) {

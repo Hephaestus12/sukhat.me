@@ -117,7 +117,7 @@ export default function HomePage() {
           
           <div className="text-base sm:text-lg md:text-xl text-zinc-600 mb-8 space-y-3 md:space-y-4 max-w-3xl mx-auto px-4">
             <p>
-              what job do you land after falling in love with <a href="https://www.arduino.cc/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">arduinos</a> and robots, realizing only your code works but never the hardware, building a <a href="#hiccup-project" className="text-teal-700 hover:underline">dating app that matches people through their spotify playlists</a>, and somehow getting a computer science degree? apparently, fullstack software engineering.
+              what job do you land after falling in love with <a href="https://www.arduino.cc/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">arduinos</a> and robots, realizing only your code works but never the hardware, building a <a href="https://the-potato-people.github.io/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">dating app that matches people through their spotify playlists</a>, and somehow getting a computer science degree? apparently, fullstack software engineering.
             </p>
             <p>
               hi there i&apos;m tej.
@@ -190,7 +190,7 @@ export default function HomePage() {
                 currently, i&apos;m a fullstack software engineer at <a href="https://weatherpromise.com" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">weatherpromise</a>.
               </p>
               <p>
-                during covid in 2020, i built <a href="#hiccup-project" className="text-teal-700 hover:underline">hiccup</a>—a dating app for indians that matched people based on their youtube and <a href="https://spotify.com" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">spotify</a> accounts. because apparently shared music taste is the foundation of love.
+                during covid in 2020, i built <a href="https://the-potato-people.github.io/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">hiccup</a>—a dating app for indians that matched people based on their youtube and <a href="https://spotify.com" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">spotify</a> accounts. because apparently shared music taste is the foundation of love.
               </p>
               <p>
                 i&apos;m working on a side project building tools for chemical factories. from dating apps to industrial chemistry—just your typical career progression.
@@ -256,6 +256,8 @@ export default function HomePage() {
                   { name: "flutter", variant: "blue" },
                   { name: "firebase", variant: "orange" }
                 ]}
+                liveUrl="https://the-potato-people.github.io/"
+                logoCompany="hiccup"
               />
             </div>
           </div>
@@ -350,7 +352,11 @@ export default function HomePage() {
                   <LogoIcon company="hiccup" size={40} />
                   <div>
                     <h3 className="text-xl font-semibold mb-1">co-founder</h3>
-                    <p className="text-lg text-teal-600">hiccup*</p>
+                    <p className="text-lg text-teal-600">
+                      <a href="https://the-potato-people.github.io/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                        hiccup*
+                      </a>
+                    </p>
                   </div>
                 </div>
                 <p className="text-zinc-600 mb-4 text-sm md:text-base">mumbai, india · dating app connecting people via shared interests</p>
