@@ -177,7 +177,7 @@ export default function HomePage() {
                 i&apos;m currently spending my time between berlin and india, preparing to go full-time on a new venture in the AEC space. i have the engineering skills, i have the industry access, and i have just enough savings to be dangerous.
               </p>
               <p>
-                i built <a href="https://the-potato-people.github.io/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">hiccup</a> (a dating app) to learn how to scale. i built chemical factory tools to learn domain complexity. now, i&apos;m building for construction.
+                i built <a href="https://hiccup.wtf/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">hiccup</a> (a dating app) to learn how to scale. i built chemical factory tools to learn domain complexity. now, i&apos;m building for construction.
               </p>
             </div>
             <div className="space-y-6">
@@ -216,7 +216,7 @@ export default function HomePage() {
                 { name: "flutter", variant: "blue" },
                 { name: "firebase", variant: "orange" }
               ]}
-              liveUrl="https://the-potato-people.github.io/"
+              liveUrl="https://hiccup.wtf/"
               logoCompany="hiccup"
             />
 
