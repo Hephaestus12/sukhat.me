@@ -102,15 +102,15 @@ export default function HomePage() {
       <section id="home" className="min-h-screen flex flex-col items-center justify-center px-4 py-20 pt-24 font-sans text-zinc-800 bg-white">
         <div className="max-w-4xl w-full text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight">
-            hi, i'm <span itemProp="name">tej sukhatme</span>.
+            hi, i&apos;m <span itemProp="name">tej sukhatme</span>.
           </h1>
 
           <div className="text-base sm:text-lg md:text-xl text-zinc-600 mb-8 space-y-3 md:space-y-4 max-w-3xl mx-auto px-4">
             <p>
-              after 3 years of engineering at places like <span className="text-teal-700">AWS</span> and <span className="text-teal-700">Rippling</span>, i've decided to stop building for "the cloud" and start building for the physical world.
+              after 3 years of engineering at places like <span className="text-teal-700">AWS</span> and <span className="text-teal-700">Rippling</span>, i&apos;ve decided to stop building for &quot;the cloud&quot; and start building for the physical world.
             </p>
             <p>
-              i'm a software engineer moving from <span className="font-semibold">berlin</span> back to <span className="font-semibold">mumbai</span> to figure out how to build the future of AEC (Architecture, Engineering, and Construction).
+              i&apos;m a software engineer moving from <span className="font-semibold">berlin</span> back to <span className="font-semibold">mumbai</span> to figure out how to build the future of AEC (Architecture, Engineering, and Construction).
             </p>
           </div>
 
@@ -142,7 +142,7 @@ export default function HomePage() {
               <h3 className="font-semibold text-lg mb-4">the 2026 plan:</h3>
               <div className="text-zinc-600 space-y-2 text-sm sm:text-base">
                 <p>– moving to mumbai in april to dive deep into the AEC domain</p>
-                <p>– shadowing architects and site managers to find a "hair on fire" problem</p>
+                <p>– shadowing architects and site managers to find a &quot;hair on fire&quot; problem</p>
                 <p>– training for an MMA fight (still trying not to die in the process)</p>
                 <p>– looking for a co-founder who is as frustrated with construction inefficiency as i am</p>
               </div>
@@ -168,25 +168,25 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
             <div className="space-y-4 md:space-y-6 text-base md:text-lg text-zinc-700">
               <p>
-                i've spent my career in high-growth tech: <a href="https://weatherpromise.com" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">weatherpromise</a>, AWS S3, and generative AI at Kodex AI.
+                i&apos;ve spent my career in high-growth tech: <a href="https://weatherpromise.com" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">weatherpromise</a>, AWS S3, and generative AI at Kodex AI.
               </p>
               <p>
-                but i come from a family of architects. my dad runs an architecture firm in mumbai, and i've realized that while tech moves at lightspeed, the way we build our physical world is still stuck in the age of excel and whatsapp.
+                but i come from a family of architects. my dad runs an architecture firm in mumbai, and i&apos;ve realized that while tech moves at lightspeed, the way we build our physical world is still stuck in the age of excel and whatsapp.
               </p>
               <p>
-                i'm currently spending my time between berlin and india, preparing to go full-time on a new venture in the AEC space. i have the engineering skills, i have the industry access, and i have just enough savings to be dangerous.
+                i&apos;m currently spending my time between berlin and india, preparing to go full-time on a new venture in the AEC space. i have the engineering skills, i have the industry access, and i have just enough savings to be dangerous.
               </p>
               <p>
-                i built <a href="https://the-potato-people.github.io/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">hiccup</a> (a dating app) to learn how to scale. i built chemical factory tools to learn domain complexity. now, i'm building for construction.
+                i built <a href="https://the-potato-people.github.io/" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">hiccup</a> (a dating app) to learn how to scale. i built chemical factory tools to learn domain complexity. now, i&apos;m building for construction.
               </p>
             </div>
             <div className="space-y-6">
               <div>
-                <h3 className="text-xl font-semibold mb-4">what i'm looking for</h3>
+                <h3 className="text-xl font-semibold mb-4">what i&apos;m looking for</h3>
                 <div className="space-y-2 text-zinc-600">
-                  <p>i'm looking to connect with AEC professionals—architects, structural engineers, and developers—who are tired of the status quo.</p>
-                  <p>i'm also looking for a co-founder. if you are an AEC veteran with an itch to build something tech-heavy, we should talk.</p>
-                  <p>still passionate about helping <a href="https://www.amazon.com/No-More-Mr-Nice-Guy/dp/0762415339" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">"nice guys"</a> recover—because building a startup requires a level of grit and candor that "nice guy" syndrome usually kills.</p>
+                  <p>i&apos;m looking to connect with AEC professionals—architects, structural engineers, and developers—who are tired of the status quo.</p>
+                  <p>i&apos;m also looking for a co-founder. if you are an AEC veteran with an itch to build something tech-heavy, we should talk.</p>
+                  <p>still passionate about helping <a href="https://www.amazon.com/No-More-Mr-Nice-Guy/dp/0762415339" target="_blank" rel="noopener noreferrer" className="text-teal-700 hover:underline">&quot;nice guys&quot;</a> recover—because building a startup requires a level of grit and candor that &quot;nice guy&quot; syndrome usually kills.</p>
                 </div>
               </div>
             </div>
@@ -290,7 +290,7 @@ export default function HomePage() {
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">writing</h2>
           <div className="text-center mb-8">
             <p className="text-lg text-zinc-600 mb-6">
-              i'm documenting my journey of leaving the comfortable world of big tech to build in the dusty world of indian construction.
+              i&apos;m documenting my journey of leaving the comfortable world of big tech to build in the dusty world of indian construction.
             </p>
             <Button asChild>
               <a
@@ -311,7 +311,7 @@ export default function HomePage() {
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8">let's talk AEC</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-8">let&apos;s talk AEC</h2>
           <p className="text-lg text-zinc-600 mb-8">
             especially if you are in mumbai, have a problem in construction that needs software, or want to spar (in the ring or on a whiteboard).
           </p>
