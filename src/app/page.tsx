@@ -80,7 +80,7 @@ export default function HomePage() {
         "occupationalCategory": "entrepreneurship"
       }
     ],
-    "description": "tej sukhatme is a software engineer pivoting into AEC (Architecture, Engineering, and Construction). currently in berlin, soon moving to mumbai to build for the built world. previously at aws, kodex ai, and rippling."
+    "description": "tej sukhatme is a software engineer pivoting into AEC (Architecture, Engineering, and Construction). currently in berlin, building for the built world. previously at aws, kodex ai, and rippling."
   };
 
   return (
@@ -110,7 +110,7 @@ export default function HomePage() {
               after 3 years of engineering at places like <span className="text-teal-700">AWS</span> and <span className="text-teal-700">Rippling</span>, i&apos;ve decided to stop building for &quot;the cloud&quot; and start building for the physical world.
             </p>
             <p>
-              i&apos;m a software engineer moving from <span className="font-semibold">berlin</span> back to <span className="font-semibold">mumbai</span> to figure out how to build the future of AEC (Architecture, Engineering, and Construction).
+              i&apos;m a software engineer trying to figure out how to build the future of AEC (Architecture, Engineering, and Construction).
             </p>
           </div>
 
@@ -141,7 +141,7 @@ export default function HomePage() {
             <CardContent className="p-6 sm:py-8 text-left">
               <h3 className="font-semibold text-lg mb-4">the 2026 plan:</h3>
               <div className="text-zinc-600 space-y-2 text-sm sm:text-base">
-                <p>– moving to mumbai in april to dive deep into the AEC domain</p>
+                <p>– diving deep into the AEC domain</p>
                 <p>– shadowing architects and site managers to find a &quot;hair on fire&quot; problem</p>
                 <p>– training for an MMA fight (still trying not to die in the process)</p>
                 <p>– looking for a co-founder who is as frustrated with construction inefficiency as i am</p>
