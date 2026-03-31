@@ -1,7 +1,14 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  async rewrites() {
+    return [
+      {
+        source: "/permit-turbo/:path*",
+        destination: "https://permit-turbo.vercel.app/permit-turbo/:path*",
+      },
+    ];
+  },
 };
 
 export default nextConfig;
