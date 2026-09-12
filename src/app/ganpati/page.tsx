@@ -15,9 +15,9 @@ export const metadata: Metadata = {
     siteName: "Ganpati at the Sukhatmes",
     images: [
       {
-        url: "/ganpati-preview-2026.png",
-        width: 1200,
-        height: 630,
+        url: "/ganpati-invite-en.jpeg",
+        width: 1047,
+        height: 1600,
         alt: "Invitation to Ganpati Utsav at our home, 14–19 September 2026",
       },
     ],
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: "Ganpati Utsav at our home 🪔",
     description:
       "14–19 September 2026 · Bandra West. Choose your day and join us for Aarti and prasad.",
-    images: ["/ganpati-preview-2026.png"],
+    images: ["/ganpati-invite-en.jpeg"],
   },
 };
 
