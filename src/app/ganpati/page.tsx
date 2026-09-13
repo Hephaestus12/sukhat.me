@@ -15,9 +15,9 @@ export const metadata: Metadata = {
     siteName: "Sukhatme's Ganpati @ Rocky Hill",
     images: [
       {
-        url: "/ganpati-invite-en.jpeg",
-        width: 1047,
-        height: 1600,
+        url: "/ganpati-invite-reminder.png",
+        width: 1024,
+        height: 1536,
         alt: "Invitation to Sukhatme's Ganpati @ Rocky Hill, 14–19 September 2026",
       },
     ],
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: "Sukhatme's Ganpati @ Rocky Hill 🪔",
     description:
       "14–19 September 2026 · Bandra West. Choose your day and join us for Aarti and prasad.",
-    images: ["/ganpati-invite-en.jpeg"],
+    images: ["/ganpati-invite-reminder.png"],
   },
 };
 
