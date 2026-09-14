@@ -20,8 +20,8 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   return {
     title: `${copy.title} · ${copy.date}`, description: copy.description,
     alternates: { canonical: url },
-    openGraph: { type: "website", locale: copy.locale, url, title: `${copy.title} 🪔`, description: copy.description, siteName: copy.title, images: [{ url: "/ganpati-whatsapp-preview-v2.jpg", width: 720, height: 1080, alt: copy.title, type: "image/jpeg" }] },
-    twitter: { card: "summary_large_image", title: `${copy.title} 🪔`, description: copy.description, images: ["/ganpati-whatsapp-preview-v2.jpg"] },
+    openGraph: { type: "website", locale: copy.locale, url, title: `${copy.title} 🪔`, description: copy.description, siteName: copy.title, images: [{ url: "/ganpati-whatsapp-invite-v3.jpg", width: 720, height: 1080, alt: copy.title, type: "image/jpeg" }] },
+    twitter: { card: "summary_large_image", title: `${copy.title} 🪔`, description: copy.description, images: ["/ganpati-whatsapp-invite-v3.jpg"] },
   };
 }
 
